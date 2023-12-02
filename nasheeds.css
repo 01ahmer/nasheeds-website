@@ -1,0 +1,1362 @@
+html {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding-bottom: auto;
+}
+
+/* TOOLBAR */
+
+.header-container {
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: auto;
+  padding-bottom: 10px;
+  z-index: 100;
+}
+
+.logo {
+  position: relative;
+  width: 90px;
+}
+
+.header-txt {
+  font-family:'Segoe UI';
+  position: relative;
+  top: -10px;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.home-page {
+  margin-right: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.home-page:active {
+  text-decoration: underline;
+}
+
+.nasheeds-page {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.nasheeds-page:active {
+  text-decoration: underline;
+}
+
+.donations-page {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.donations-page:active {
+  text-decoration: underline;
+}
+
+/* TITLE */
+
+.title-container {
+  font-family: 'Segoe UI';
+  color: black;
+  margin-top: 50px;
+  padding-top: 1px;
+  padding-left: 7px;
+  padding-bottom: 1px;
+  background-color: rgb(223, 213, 213);
+}
+
+/* ABDALNA */
+
+.abdalna-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-abdalna {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.abdalna-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-abdalna {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* ASK THE RHYMES */
+
+.atr-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-atr {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.atr-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-atr {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* ALLAHU YALAM */
+
+.ay-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-ay {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.ay-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-ay {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* WE ARE THE SOLDIERS OF ALLAH(BOSNIAN) */
+
+.watsoa-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-watsoa {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.watsoa-title {
+  position: relative;
+  margin-top: -30px;
+  left: 5px;
+  font-size: 16px;
+}
+
+.download-watsoa {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* BRIGADE 103 */
+
+.brigade-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-brigade {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.brigade-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-brigade {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* FATAT AL KHAYR */
+
+.fak-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-fak {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.fak-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-fak {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* GHABAD GHABAD */
+
+.ghabad-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-ghabad {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.ghabad-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-ghabad {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* HALUMMU HALUMMU */
+
+.halummu-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-halummu {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.halummu-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;;
+}
+
+.download-halummu {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* I CHALLENGE THE APACHE */
+
+.apache-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-apache {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.apache-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.download-apache {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* QAD TASAMA */
+
+.qadTasama-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-qadTasama {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.qadTasama-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-qadTasama {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* UNKNOWN */
+
+.unknown-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-unknown {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.unknown-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-unknown {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* QALU LAHU */
+
+.qalu-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-qalu {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.qalu-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-qalu {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* SHAY SHAY */
+
+.shay-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-shay {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.shay-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-shay {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* SIBSI QAYED AL KUFFAR */
+
+.sibsi-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-sibsi {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.sibsi-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.download-sibsi {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* SOLDIER OF ALLAH */
+
+.soa-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-soa {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.soa-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 16px;
+}
+
+.download-soa {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* TABALAGH BIL QALEEL */
+
+.tbq-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-tbq {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.tbq-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 14px;
+}
+
+.download-tbq {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* TAWEEL AL SHAWQ */
+
+.tas-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-tas {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.tas-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 15px;
+}
+
+.download-tas {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* THABATAN THABATAN */
+
+.thabatan-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-thabatan {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.thabatan-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 14px;
+}
+
+.download-thabatan {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* THE WAY OF TEARS */
+
+.twot-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-twot {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.twot-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 14px;
+}
+
+.download-twot {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* YA FAWZA MANNAHA WASHAHADAH */
+
+.yfm-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-yfm {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.yfm-title {
+  position: relative;
+  margin-top: -30px;
+  left: 7px;
+  font-size: 14px;
+}
+
+.download-yfm {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* HASN'T DEATH CALLED YOU */
+
+.hdcy-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.btn-hdcy {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-top: 4px;
+  margin-left: 10px;
+  background-color: lightgreen;
+  border-color: green;
+}
+
+.hdcy-title {
+  position: relative;
+  margin-top: -30px;
+  left: 0px;
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.download-hdcy {
+  content: url('download-button.png');
+  position: relative;
+  top: -37px;
+  margin-left: 175px;
+  width: 125px;
+  right: -15px;
+}
+
+/* FOOTER SECTION */
+
+.footer-container {
+  background-color: rgb(144, 145, 156);
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  width: auto;
+  height: 100px;
+}
+
+.footer-text {
+  font-family: Cambria;
+  color: white;
+}
+
+.footer-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* PC */
+
+@media (min-width: 700px) {
+
+  html, body {
+    margin: 0;
+    height: 100%;
+    padding-bottom: 100px;
+  }
+
+  /* TOP TOOLBAR */
+
+  .header-container {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100px;
+    width: auto;
+    z-index: 100;
+  }
+    
+  .logo {
+    position: relative;
+    width: 160px;
+  }
+    
+  .header-txt {
+    font-family:'Segoe UI';
+    position: relative;
+    top: -10px;
+    font-size: 20px;
+  }
+    
+  .home-page {
+    margin-left: 0px;
+    color: white;
+    text-decoration: none;
+  }
+    
+  .home-page:hover {
+    text-decoration: underline;
+  }
+    
+  .nasheeds-page {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+  }
+    
+  .nasheeds-page:hover {
+    text-decoration: underline;
+  }
+    
+  .donations-page {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+  }
+    
+  .donations-page:hover {
+    text-decoration: underline;
+  }
+
+  /* TITLE */
+
+.title-container {
+  font-family: 'Segoe UI';
+  color: black;
+  margin-top: 110px;
+  padding-top: 10pxpx;
+  padding-left: 7px;
+  padding-bottom: 1px;
+  background-color: rgb(223, 213, 213);
+}
+
+/* @ABDALNA */
+
+.abdalna-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-abdalna:hover{
+  opacity: 0.8;
+}
+
+/* @ASK THE RHYMES */
+
+.atr-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-atr:hover{
+  opacity: 0.8;
+}
+
+/* @ALLAHU YALAM */
+
+.ay-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-ay:hover{
+  opacity: 0.8;
+}
+
+/* @WE ARE THE SOLDIERS OF ALLAH(BOSNIAN) */
+
+.watsoa-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-watsoa:hover{
+  opacity: 0.8;
+}
+
+/* @BRIGADE 103 */
+
+.brigade-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-brigade:hover{
+  opacity: 0.8;
+}
+
+/* @FATAT AL KHAYR */
+
+.fak-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-fak:hover{
+  opacity: 0.8;
+}
+
+/* @GHABAD GHABAD */
+
+.ghabad-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-ghabad:hover{
+  opacity: 0.8;
+}
+
+/* @HALUMMU HALUMMU */
+
+.halummu-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-halummu:hover{
+  opacity: 0.8;
+}
+
+/* @I CHALLENGE THE APACHE */
+
+.apache-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-apache:hover{
+  opacity: 0.8;
+}
+
+/* @QAD TASAMA */
+
+.qadTasama-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-qadTasama:hover{
+  opacity: 0.8;
+}
+
+/* @UNKNOWN */
+
+.unknown-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-unknown:hover{
+  opacity: 0.8;
+}
+
+/* @QALU LAHU */
+
+.qalu-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-qalu:hover{
+  opacity: 0.8;
+}
+/* @SHAY SHAY */
+
+.shay-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-shay:hover{
+  opacity: 0.8;
+}
+
+/* @SIBSI QAYED AL KUFFAR */
+
+.sibsi-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-sibsi:hover{
+  opacity: 0.8;
+}
+
+/* @SOLDIER OF ALLAH */
+
+.soa-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-soa:hover{
+  opacity: 0.8;
+}
+
+/* @TABALAGH BIL QALEEL */
+
+.tbq-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-tbq:hover{
+  opacity: 0.8;
+}
+
+/* @TAWEEL AL SHAWQ */
+
+.tas-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-tas:hover{
+  opacity: 0.8;
+}
+
+/* @THABATAN THABATAN */
+
+.thabatan-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-thabatan:hover{
+  opacity: 0.8;
+}
+/* @THE WAY OF TEARS */
+
+.twot-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-twot:hover{
+  opacity: 0.8;
+}
+
+/* @YA FAWZA MANNAHA WASHAHADAH */
+
+.yfm-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-yfm:hover{
+  opacity: 0.8;
+}
+
+/* @HASN'T DEATH CALLED YOU */
+
+.hdcy-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  height: 50px;
+  width: 325px;
+  margin-left: 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.download-hdcy:hover{
+  opacity: 0.8;
+}
+
+/* FOOTER */
+
+.footer-container {
+  background-color: rgb(144, 145, 156);
+  position: relative;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  height: 100px;
+}
+
+.footer-text {
+  font-family: Cambria;
+  color: white;
+}
+
+.footer-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+}

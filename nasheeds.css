@@ -2,10 +2,13 @@ html, body {
   margin: 0;
   height: 100%;
   padding-bottom: auto;
-  overflow-x: hidden;
-}
+  }
 
 /* TOOLBAR */
+
+body {
+  overflow-x: hidden;
+}
 
 .header-container {
   background-color: black;

@@ -1,14 +1,15 @@
 html, body {
   margin: 0;
   height: 100%;
-  padding-bottom: auto;
-  }
-
-/* TOOLBAR */
+  width: 100%;
+}
 
 body {
+  position: absolute;
   overflow-x: hidden;
 }
+
+/* TOOLBAR */
 
 .header-container {
   background-color: black;
@@ -1093,7 +1094,6 @@ body {
 
 .footer-container {
   background-color: rgb(144, 145, 156);
-  position: relative;
   left: 0;
   right: 0;
   bottom: 0;

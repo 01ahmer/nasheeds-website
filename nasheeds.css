@@ -1,14 +1,11 @@
 html, body {
   margin: 0;
   height: 100%;
-  padding-bottom: 500px;
+  padding-bottom: auto;
+  overflow-x: hidden;
 }
 
 /* TOOLBAR */
-
-body {
-  overflow-x: hidden;
-}
 
 .header-container {
   background-color: black;
@@ -1554,7 +1551,7 @@ body {
   right: 0;
   bottom: 0;
   width: auto;
-  height: 100vh;
+  height: 100px;
 }
 
 .footer-text {

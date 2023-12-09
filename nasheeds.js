@@ -1,6 +1,3 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4347380999688911"
-     crossorigin="anonymous"></script>
-
 /* ABDALNA */
 
 var playabdalna = new Audio();
